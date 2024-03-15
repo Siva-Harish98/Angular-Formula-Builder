@@ -1,0 +1,10 @@
+<div style="display: flex;justify-content: center;">
+  <textarea cols="100" rows="10" [(ngModel)]="textareadata"></textarea>
+</div>
+<div style="display: flex;justify-content: center;margin-top: 10px;">
+  <button style="padding: 10px;background-color: black;color: white;font-weight: bold;" (click)="Validate()">Validate</button>
+</div>
+
+<div style="display: flex;justify-content: center;margin-top: 20px;font-weight: bold;background-color: antiquewhite;padding: 20px 30px;">
+       <div>{{errormsg}}</div> 
+</div>
